@@ -4,6 +4,8 @@
 
 This was a university assignment for _CAB230 - Web Computing_. The REST API was built using Node.js and Express.js, it utilises Swagger UI to display the documentation for the API. A MySQL database is used to retrieve information about movies and store user accounts. It allows searching capabilites with filters for movies, actors and directors. The API uses JWT for authentication and authorization for user accounts, and https for security. Signed certificates and a .env file are provided as examples only. Only movies up to 2022 are included in the database and all data was retrieved from [IMDb](https://www.imdb.com/), [Rotten Tomatoes](https://www.rottentomatoes.com/) and [metacritic](https://www.metacritic.com/).
 
+This API is utilised by the movie website found [here](https://github.com/Philllipe/movie-website).
+
 ## Technologies Used
 
 - [Node.js](https://nodejs.org)
